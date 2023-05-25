@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mini Calculator</title>
+</head>
+<body>
+    <div class="main">
+        <label for="value1" >Number 1</label><br>
+        <input type="number" id="value1" placeholder="..."><br><br>
+
+        <label for="value2" >Number 2</label><br>
+        <input type="number" id="value2" placeholder="..."><br>
+<div id="btn" class="btn style">
+        <button id="action" onclick="add()">➕</button>
+        <button id="action" onclick="mul()">✖️</button>
+        <button id="action" onclick="div()">➗</button>
+        <button id="action" onclick="sub()">➖</button>
+        <button id="reset" onclick="reset()">❌</button><br><br>
+    </div>
+
+        <label for="result" >Result</label><br>
+        <input type="number" id="result" disabled><br><br>
+        
+    </div>
+<script src="script.js"></script>    
+</body>
+</html>
